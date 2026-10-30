@@ -1,0 +1,22 @@
+CROQUIS DE CAMPO — cómo publicarla en GitHub Pages
+
+1. Descomprime este zip en tu computadora.
+2. En github.com crea un repositorio PÚBLICO (por ejemplo: croquis).
+3. "Add file" > "Upload files": arrastra el CONTENIDO de la carpeta
+   (index.html, manifest.json, sw.js y la carpeta icons), no la carpeta en sí.
+4. "Commit changes".
+5. Settings > Pages > Source: rama "main", carpeta "/ (root)" > Save.
+6. En 1–2 minutos tendrás el enlace: https://TUUSUARIO.github.io/croquis/
+
+INSTALAR EN EL TELÉFONO
+- Abre el enlace CON INTERNET la primera vez y espera unos segundos.
+- Android (Chrome): menú ⋮ > "Instalar app" o "Agregar a pantalla principal".
+- iPhone (Safari): botón Compartir > "Agregar a inicio".
+- Desde ahí funciona sin conexión, incluida la vista 3D.
+
+IMPORTANTE
+- Los croquis se guardan en cada teléfono (no se comparten entre equipos).
+  Usa la opción de exportar para respaldarlos.
+- Si actualizas index.html, cambia en sw.js la línea
+  const VERSION = 'croquis-v1';  por  'croquis-v2'  (y así sucesivamente)
+  para que los teléfonos reciban la versión nueva.
